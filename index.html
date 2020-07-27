@@ -1,0 +1,25 @@
+<html> 
+    <head>
+        <title>Assignment</title>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCY0vJC4oZA-bs9Nge67xN8nsnmXZ7F7KY"></script>
+        <script src="JS/todo.js" async ></script>
+        <link rel="stylesheet" href="CSS/todo.css">
+    </head>
+    <body>
+		<div class="mainContainer">
+            <h1>TO DO</h1>
+			<label for="battery">Device Battery :</label>
+			<progress id="battery" max="100" value="0"></progress>
+			<p id="batteryValue" style="display: inline;"></p>
+			
+			<div id="GoogleMap" class="GoogleMap"></div>
+			
+			<br>
+                <input type="text" id="name"/>
+				<br/><br/>
+				<button id="addButton" class="addButton">Add New Task</button>
+                <div id="tasks">
+                </div>
+		</div>
+    </body>
+</html>
